@@ -1,0 +1,9 @@
+<h1>Celebrities</h1>
+<p>Find me in app/views/celebrities/index.html.erb</p>
+
+<ul>
+#name is a hash
+  <% @celebrities.each do |name| %>
+  <li><%= name[:name]  %></li>
+  <% end %>
+</ul>
